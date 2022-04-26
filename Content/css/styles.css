@@ -8,12 +8,9 @@ nav {
     color: #E8F6EF;
     
 }
-.nav-link:hover {
-    color: #E8F6EF;
-}
 .navbar-brand {
     color: #E8F6EF;
 }
-.navbar-brand:hover {
-    color: #E8F6EF;
+ul {
+    float: right;
 }
