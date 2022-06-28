@@ -14,3 +14,32 @@ nav {
 ul {
     float: right;
 }
+
+.profile-page {
+    background-image: url(https://www.dienodigital.com/wp-content/uploads/2018/05/pexels-photo1.jpg);
+    height: 500px;
+}
+
+.photo {
+    width: 150px;
+    
+}
+
+.wrapper {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+#name {
+    color: #E8F6EF;
+    font-size: 38px;
+    font-weight: bold;
+}
+#occupation {
+    color: #E8F6EF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
