@@ -1,5 +1,5 @@
 body {
-    background-color: #E8F6EF;
+    background-color: white;
 }
 nav {
     background-color: #4C4C6D;
@@ -27,7 +27,7 @@ ul {
 
 .wrapper {
     position: relative;
-    top: 200px;
+    top: 150px;
     text-align: center;
     font-family: Helvetica, sans-serif;
 }
@@ -38,8 +38,44 @@ ul {
     font-weight: bold;
 }
 #occupation {
+    
     color: #E8F6EF;
     font-size: 20px;
     font-weight: bold;
 }
 
+
+
+.btn {
+    color: #E8F6EF;
+    font-size: 40px;
+    background-color: #748DA6;
+}
+
+.card {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 100px;
+    box-shadow: 5px 5px 20px #D3CEDF;
+}
+
+
+
+/* Skills Bar */
+
+.progress {
+    height: 7px;
+}
+
+.progress-bar {
+    background-color: #610C63;
+}
+
+.progress-title {
+    text-align: left;
+}
+
+.progress-percent {
+    text-align: right;
+}
