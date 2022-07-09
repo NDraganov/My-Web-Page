@@ -1,8 +1,10 @@
 body {
     background-color: white;
 }
+
+/* Navbar */
 nav {
-    background-color: #4C4C6D;
+    background-color: #610C63;
 }
 .nav-link {
     color: #E8F6EF;
@@ -14,6 +16,8 @@ nav {
 ul {
     float: right;
 }
+
+/* Profile */
 
 .profile-page {
     background-image: url(https://www.dienodigital.com/wp-content/uploads/2018/05/pexels-photo1.jpg);
@@ -49,23 +53,36 @@ ul {
 .btn {
     color: #E8F6EF;
     font-size: 40px;
-    background-color: #748DA6;
+    background-color: #610C63;
 }
+
+ /* About */
 
 .card {
     font-size: 20px;
     font-family: Helvetica, sans-serif;
     position: relative;
     top: 100px;
-    box-shadow: 5px 5px 20px #D3CEDF;
+    box-shadow: 5px 5px 20px #610C63;
 }
 
 
 
 /* Skills Bar */
 
+#skills {
+    position: relative;
+    top: 200px;
+    
+}
+
+.skill-bar {
+    padding: 20px;
+}
+
 .progress {
-    height: 7px;
+    height: 5px;
+    background-color: #d79bd6;
 }
 
 .progress-bar {
@@ -74,8 +91,31 @@ ul {
 
 .progress-title {
     text-align: left;
+    color: #610C63;
 }
 
 .progress-percent {
     text-align: right;
+    color: #610C63;
 }
+
+  /* Portfolio */
+
+#portfolio {
+    position: relative;
+    top: 350px;
+  }
+
+.gallery {
+    position: relative;
+    top: 70px;
+}
+
+  
+.gallery1 {
+    background-color: black;
+    border: solid 1px #610C63;
+    box-shadow: 5px 5px 20px #610C63;
+    height: 300px;
+    width: 600px;
+  }
