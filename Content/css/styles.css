@@ -76,6 +76,11 @@ ul {
     
 }
 
+.skill {
+    position: relative;
+    top: 50px;
+}
+
 .skill-bar {
     padding: 20px;
 }
