@@ -122,3 +122,17 @@ ul {
     border: solid 1px #610C63;
     box-shadow: 5px 5px 20px #610C63;
   }
+
+  /* Contact */
+
+#contact {
+    position: relative;
+    top: 600px;
+}
+#contact .card {
+    text-align: left;
+}
+#contact .h3 {
+    text-align: center;
+    font-weight: bold;
+}
