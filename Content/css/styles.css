@@ -1,11 +1,13 @@
 body {
-    background-color: white;
+
 }
 
 /* Navbar */
 nav {
     background-color: #610C63;
+    color: #E8F6EF;
 }
+
 .nav-link {
     color: #E8F6EF;
     
@@ -19,7 +21,7 @@ ul {
 
 /* Profile */
 
-.profile-page {
+#profile {
     background-image: url(https://www.dienodigital.com/wp-content/uploads/2018/05/pexels-photo1.jpg);
     height: 500px;
 }
