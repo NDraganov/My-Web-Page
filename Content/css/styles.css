@@ -1,5 +1,5 @@
 body {
-
+    font-family: Helvetica, sans-serif;
 }
 
 /* Navbar */
@@ -22,12 +22,15 @@ ul {
 /* Profile */
 
 #profile {
-    background-image: url(https://www.dienodigital.com/wp-content/uploads/2018/05/pexels-photo1.jpg);
-    height: 500px;
+    background-color: #E9D5DA;
+    height: 600px;
+    border-bottom: 3px solid #610C63;
 }
 
 .photo {
-    width: 150px;
+    width: 200px;
+    border: 5px solid #610C63;
+    border-radius: 100%;
     
 }
 
@@ -39,23 +42,23 @@ ul {
 }
 
 #name {
-    color: #E8F6EF;
+    color: #610C63;
     font-size: 38px;
     font-weight: bold;
 }
 #occupation {
     
-    color: #E8F6EF;
+    color: #610C63;
     font-size: 20px;
     font-weight: bold;
 }
 
-
-
 .btn {
-    color: #E8F6EF;
-    font-size: 40px;
-    background-color: #610C63;
+    color: #610C63;
+}
+
+.btn :hover {
+    color: #d79bd6;
 }
 
  /* About */
@@ -117,7 +120,9 @@ ul {
     position: relative;
     top: 70px;
 }
-
+#portfolio figure {
+    color: #610C63;
+}
   
 .gallery1 {
     background-color: black;
@@ -132,10 +137,43 @@ ul {
     position: relative;
     top: 600px;
 }
-#contact .card {
-    text-align: left;
-}
+
+
 #contact .h3 {
     text-align: center;
+    font-weight: bold;
+}
+#contact .card-body {
+    text-align: left;
+}
+
+#contact .form-control {
+    border-top: 1px solid #610C63;
+    border-right: 1px solid #610C63;
+    border-bottom: 1px solid #610C63;
+}
+#contact .input-group-text {
+    border-color: #610C63;
+}
+#contact textarea {
+    border-color: #610C63;
+}
+.btn2 {
+    color: #d79bd6;
+    background-color: #610C63;
+}
+
+/* Footer */
+
+hr {
+    border: 1px solid black;
+}
+#footer {
+    color: #610C63;
+    position: relative;
+    top: 800px;
+}
+#footer .h4 {
+    color: #610C63;
     font-weight: bold;
 }
