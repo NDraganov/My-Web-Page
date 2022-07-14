@@ -2,22 +2,38 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+
+
 /* Navbar */
+
 nav {
     background-color: #610C63;
     color: #E8F6EF;
 }
 
+.navbar-toggler {
+    color: #E8F6EF;
+}
+.navbar-toggler:hover {
+    color: #d79bd6;
+}
 .nav-link {
     color: #E8F6EF;
-    
+}
+.nav-link:hover {
+    color: #d79bd6;
 }
 .navbar-brand {
     color: #E8F6EF;
 }
+.navbar-brand:hover {
+    color: #d79bd6;
+}
 ul {
     float: right;
 }
+
+
 
 /* Profile */
 
@@ -31,7 +47,6 @@ ul {
     width: 200px;
     border: 5px solid #610C63;
     border-radius: 100%;
-    
 }
 
 .wrapper {
@@ -46,8 +61,8 @@ ul {
     font-size: 38px;
     font-weight: bold;
 }
+
 #occupation {
-    
     color: #610C63;
     font-size: 20px;
     font-weight: bold;
@@ -61,6 +76,9 @@ ul {
     color: #d79bd6;
 }
 
+
+
+
  /* About */
 
 .card {
@@ -71,6 +89,16 @@ ul {
     box-shadow: 5px 5px 20px #610C63;
 }
 
+.link {
+    color: #610C63;
+    text-decoration: none;
+}
+.link:hover {
+    color: #d79bd6;
+}
+
+
+
 
 
 /* Skills Bar */
@@ -78,7 +106,6 @@ ul {
 #skills {
     position: relative;
     top: 200px;
-    
 }
 
 .skill {
@@ -109,6 +136,10 @@ ul {
     color: #610C63;
 }
 
+
+
+
+
   /* Portfolio */
 
 #portfolio {
@@ -131,13 +162,16 @@ ul {
     width: 100%;
   }
 
+
+
+
+
   /* Contact */
 
 #contact {
     position: relative;
     top: 600px;
 }
-
 
 #contact .h3 {
     text-align: center;
@@ -152,9 +186,11 @@ ul {
     border-right: 1px solid #610C63;
     border-bottom: 1px solid #610C63;
 }
+
 #contact .input-group-text {
     border-color: #610C63;
 }
+
 #contact textarea {
     border-color: #610C63;
 }
@@ -163,16 +199,22 @@ ul {
     background-color: #610C63;
 }
 
+
+
+
+
 /* Footer */
 
 hr {
     border: 1px solid black;
 }
+
 #footer {
     color: #610C63;
     position: relative;
     top: 800px;
 }
+
 #footer .h4 {
     color: #610C63;
     font-weight: bold;
