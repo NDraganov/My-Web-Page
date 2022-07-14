@@ -123,6 +123,7 @@ ul {
     background-color: black;
     border: solid 1px #610C63;
     box-shadow: 5px 5px 20px #610C63;
+    width: 100%;
   }
 
   /* Contact */
