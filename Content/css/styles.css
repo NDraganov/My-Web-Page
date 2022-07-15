@@ -51,7 +51,7 @@ ul {
 
 .wrapper {
     position: relative;
-    top: 150px;
+    top: 100px;
     text-align: center;
     font-family: Helvetica, sans-serif;
 }
@@ -68,11 +68,25 @@ ul {
     font-weight: bold;
 }
 
+.icon1 {
+    position: relative;
+    top: 200px;
+    right: 400px;
+    color: #610C63;
+}
+
+.icon2 {
+    position: relative;
+    bottom: 243px;
+    left: 410px;
+    color: #610C63;
+}
+
 .btn {
     color: #610C63;
 }
 
-.btn :hover {
+.btn:hover {
     color: #d79bd6;
 }
 
@@ -86,7 +100,7 @@ ul {
     font-family: Helvetica, sans-serif;
     position: relative;
     top: 100px;
-    box-shadow: 5px 5px 20px #610C63;
+    box-shadow: 5px 5px 20px #610C6380;
 }
 
 .link {
@@ -161,11 +175,19 @@ ul {
 #portfolio figure {
     color: #610C63;
 }
-  
+
+#portfolio figcaption {
+    background-color: #E9D5DA;
+    border: 1px solid #610C63;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 20px #610C6380;
+}
+
 .gallery1 {
     background-color: black;
     border: solid 1px #610C63;
-    box-shadow: 5px 5px 20px #610C63;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 5px 5px 20px #610C6380;
     width: 100%;
   }
 
@@ -201,6 +223,7 @@ ul {
 #contact textarea {
     border-color: #610C63;
 }
+
 .btn2 {
     color: #d79bd6;
     background-color: #610C63;
