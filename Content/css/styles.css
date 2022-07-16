@@ -91,6 +91,10 @@ ul {
     box-shadow: 5px 5px 20px #610C6380;
 }
 
+#about .h3 {
+    font-weight: bold;
+}
+
 .link {
     color: #610C63;
     text-decoration: none;
@@ -104,6 +108,7 @@ ul {
     text-decoration: none;
     -webkit-text-decoration: none;
 }
+
 .phone:hover {
     color: #d79bd6;
 }
@@ -217,6 +222,10 @@ ul {
 .btn2 {
     color: #d79bd6;
     background-color: #610C63;
+}
+
+.btn2:hover {
+    color: #E9D5DA;
 }
 
 
