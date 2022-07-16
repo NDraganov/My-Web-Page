@@ -121,7 +121,7 @@ ul {
 
 #skills {
     position: relative;
-    top: 200px;
+    top: 100px;
 }
 
 .skill {
@@ -160,7 +160,7 @@ ul {
 
 #portfolio {
     position: relative;
-    top: 350px;
+    top: 290px;
   }
 
 .gallery {
@@ -194,7 +194,7 @@ ul {
 
 #contact {
     position: relative;
-    top: 600px;
+    top: 450px;
 }
 
 #contact .h3 {
@@ -241,7 +241,7 @@ hr {
 #footer {
     color: #610C63;
     position: relative;
-    top: 800px;
+    top: 650px;
 }
 
 #footer .h4 {
