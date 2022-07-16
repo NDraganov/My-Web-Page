@@ -14,21 +14,23 @@ nav {
 .navbar-toggler {
     color: #E8F6EF;
 }
-.navbar-toggler:hover {
-    color: #d79bd6;
-}
+
 .nav-link {
     color: #E8F6EF;
 }
+
 .nav-link:hover {
     color: #d79bd6;
 }
+
 .navbar-brand {
     color: #E8F6EF;
 }
+
 .navbar-brand:hover {
     color: #d79bd6;
 }
+
 ul {
     float: right;
 }
@@ -51,7 +53,7 @@ ul {
 
 .wrapper {
     position: relative;
-    top: 100px;
+    top: 160px;
     text-align: center;
     font-family: Helvetica, sans-serif;
 }
@@ -66,20 +68,6 @@ ul {
     color: #610C63;
     font-size: 20px;
     font-weight: bold;
-}
-
-.icon1 {
-    position: relative;
-    top: 200px;
-    right: 400px;
-    color: #610C63;
-}
-
-.icon2 {
-    position: relative;
-    bottom: 243px;
-    left: 410px;
-    color: #610C63;
 }
 
 .btn {

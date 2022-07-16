@@ -19,7 +19,8 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#profile">Nedyalko Draganov</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-bars" style="color: white; width: 50px" aria-hidden="true"></i>
+            <!-- Navbar closing - javascript code taken from https://www.w3schools.com/howto/howto_js_mobile_navbar.asp -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars" style="color: white; width: 50px" aria-hidden="true"></i></a>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
@@ -34,13 +35,13 @@
   </header>
   <main>
        <!-- Page Content -->
+
   <div class="page-content">
-    
 
        <!-- Profile Page -->
+
        <div class="section" id="profile">
          <div class="wrapper">
-            <i class="fa-solid fa-angle-left fa-5x icon1"></i>
             <div class="container">
               <img class="photo" src="Content/images/IMG_1995-modified.png" alt="profile-photo">
             <h3 id="name">Nedyalko Draganov</h2>
@@ -56,8 +57,6 @@
                 </div>
             </div>
             </div>
-            
-            <i class="fa-solid fa-angle-right fa-5x icon2"></i>
          </div>
         </div>
 
@@ -330,6 +329,17 @@
    
    
   </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("navbarNav");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
   
 </main>
 
