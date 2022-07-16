@@ -55,7 +55,6 @@ ul {
     position: relative;
     top: 160px;
     text-align: center;
-    font-family: Helvetica, sans-serif;
 }
 
 #name {
@@ -85,10 +84,14 @@ ul {
 
 .card {
     font-size: 20px;
-    font-family: Helvetica, sans-serif;
     position: relative;
     top: 100px;
     box-shadow: 5px 5px 20px #610C6380;
+}
+
+.text {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
 }
 
 #about .h3 {
