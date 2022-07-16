@@ -101,6 +101,8 @@ ul {
 
 .phone {
     color: #610C63;
+    text-decoration: none;
+    -webkit-text-decoration: none;
 }
 .phone:hover {
     color: #d79bd6;
