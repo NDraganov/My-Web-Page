@@ -37,34 +37,26 @@
 </nav>
 </header>
 <main>
-<!-- Page Content -->
-<div class="page-content">
-
 <!-- Profile Page -->
 <!-- Code taken from https://sunnyhebbar.info/ -->
-<div class="section" id="profile">
-<div class="wrapper">
-  <div class="container">
-    <img class="photo" src="Content/images/IMG_1995-modified.png" alt="profile-photo">
+<section id="profile">
+<div class="container">
+  <img class="photo" src="Content/images/IMG_1995-modified.png" alt="profile-photo">
   <h3 id="name">Nedyalko Draganov</h2>
   <p id="occupation">Front End Web Developer</p> 
-  <div class="container">
-    <div class="button-container">
-      <a class="btn btn-icon btn-lg" href="https://www.linkedin.com/in/nedyalko-draganov-12958a235/" rel="tooltip" title="" target="_blank" data-original-title="Follow me on Linkedin">
-        <i class="fa fa-linkedin fa-2x"></i>
-      </a>
-      <a class="btn btn-icon btn-lg " href="https://github.com/NDraganov" rel="tooltip" title="" target="_blank" data-original-title="Follow me on GitHub">
-        <i class="fa fa-github fa-2x"></i>
-      </a>
-    </div>
-  </div>
+  <div class="button-container">
+    <a class="btn btn-icon btn-lg" href="https://www.linkedin.com/in/nedyalko-draganov-12958a235/" rel="tooltip" title="" target="_blank" data-original-title="Follow me on Linkedin">
+      <i class="fa fa-linkedin fa-2x"></i>
+    </a>
+    <a class="btn btn-icon btn-lg " href="https://github.com/NDraganov" rel="tooltip" title="" target="_blank" data-original-title="Follow me on GitHub">
+      <i class="fa fa-github fa-2x"></i>
+    </a>
   </div>
 </div>
-</div>
-
+</section>
 <!-- About Page -->
 <!-- Code taken from https://sunnyhebbar.info/ -->
-<div class="section" id="about">
+<section id="about">
 <div class="container">
   <div class="card">
     <div class="row">
@@ -76,7 +68,7 @@
         </div>
       </div>
       <div class="col-lg-6 col-md-12">
-        <div class="card-body">
+        <div class="card-body ms-3">
           <div class="h3 title pt-2">Basic Information</div>
           <div class="row">
             <div class="col-sm-4 pb-2 pt-2"><strong>Email:</strong></div>
@@ -96,108 +88,104 @@
     </div>
   </div>
 </div>
-</div>
+</section>
        
 <!-- Skills Bars -->
 <!-- Code taken from https://getbootstrap.com/docs/4.0/components/progress/ -->
-<div class="section" id="skills">
-<div class="wrapper">
-  <div class="container">
-    <div class="h3 title text">Skills</div>
-    <div class="skill">
-      <div class="row">
-          <div class="col-md-12">
-          <div class="skill-bar">
-            <div class="row">
-              <div class="col-md-6 progress-title">HTML 5</div>
-              <div class="col-md-6 progress-percent">50%</div>
+<section id="skills">
+<div class="container">
+  <div class="h3 title text">Skills</div>
+  <div class="skills mt-3">
+    <div class="row">
+        <div class="col-md-12">
+        <div class="skill-bar">
+          <div class="row">
+            <div class="col-md-6 progress-title">HTML 5</div>
+            <div class="col-md-6 progress-percent">50%</div>
+          </div>
+            <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-              <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+        </div>
+        <div class="skill-bar">
+          <div class="row">
+            <div class="col-md-6 progress-title">CSS 3</div>
+            <div class="col-md-6 progress-percent">55%</div>
           </div>
-          <div class="skill-bar">
-            <div class="row">
-              <div class="col-md-6 progress-title">CSS 3</div>
-              <div class="col-md-6 progress-percent">55%</div>
+            <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-              <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+        </div>
+        <div class="skill-bar">
+          <div class="row">
+            <div class="col-md-6 progress-title">Bootstrap</div>
+            <div class="col-md-6 progress-percent">40%</div>
           </div>
-          <div class="skill-bar">
-            <div class="row">
-              <div class="col-md-6 progress-title">Bootstrap</div>
-              <div class="col-md-6 progress-percent">40%</div>
+            <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-              <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+        </div>
+        <div class="skill-bar">
+          <div class="row">
+            <div class="col-md-6 progress-title">JavaScript</div>
+            <div class="col-md-6 progress-percent">20%</div>
           </div>
-          <div class="skill-bar">
-            <div class="row">
-              <div class="col-md-6 progress-title">JavaScript</div>
-              <div class="col-md-6 progress-percent">20%</div>
+            <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-              <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-          </div>
-          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Portfolio Page -->
+<!-- Code taken from https://sunnyhebbar.info/   -->
+<section id="portfolio"> 
+<div class="container">
+<div class="h3 title text">Portfolio</div>
+  <div class="gallery mt-5">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12">
+        <figure>
+          <img class="gallery1" src="Content/images/how-to-create-a-website-feature-image-e1496943224192.jpg" alt="">
+          <figcaption>
+            <div class="h4 mt-3 text">First Website</div>
+            <p class="text">JavaScript Project</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-6 col-sm-12">
+        <figure>
+          <img class="gallery1" src="Content/images/how-to-create-a-website-feature-image-e1496943224192.jpg" alt="">
+          <figcaption>
+            <div class="h4 mt-3 text">Second Website</div>
+            <p class="text">Put all together Project</p>
+          </figcaption>
+        </figure>
       </div>
     </div>
   </div>
 </div>
-</div>
-
-<!-- Portfolio Page -->
-<!-- Code taken from https://sunnyhebbar.info/   -->
-<div class="section" id="portfolio"> 
-<div class="wrapper">
-    <div class="container">
-    <div class="h3 title text">Portfolio</div>
-      <div class="gallery">
-        <div class="row">
-          <div class="col-lg-6 col-sm-12">
-            <figure>
-              <img class="gallery1" src="Content/images/how-to-create-a-website-feature-image-e1496943224192.jpg" alt="">
-              <figcaption>
-                <div class="h4 mt-3 text">First Website</div>
-                <p class="text">JavaScript Project</p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-lg-6 col-sm-12">
-            <figure>
-              <img class="gallery1" src="Content/images/how-to-create-a-website-feature-image-e1496943224192.jpg" alt="">
-              <figcaption>
-                <div class="h4 mt-3 text">Second Website</div>
-                <p class="text">Put all together Project</p>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
-    </div>
-</div>
-</div>
+</section>
 
 <!-- Contact Page -->
 <!-- Code taken from https://sunnyhebbar.info/ and https://getbootstrap.com/docs/5.2/forms/overview/ -->
-<div class="section" id="contact">
-<div class="wrapper"> 
-  <div class="container">
-    <div class="cc-contact">
-        <div class="card">
-          <div class="mt-5 h3 title">Contact me</div>
-            <div class="row">
-                <div class="col-md-7">
-                  <div class="mt-4 card-body">
+<section id="contact"> 
+<div class="container">
+  <div class="h3 title text">Contact me</div>
+  <div class="contact mt-5">
+      <div class="card">
+        
+          <div class="row">
+              <div class="col-md-7">
+                <div class="card-body mt-4">
                   <form action="#" method="post">
                   <div class="pb-3"><strong>Feel free to contact me</strong></div>
                     <div class="row">
                       <div class="col">
-                        <div class="mb-3 input-group">
+                        <div class="input-group mb-3">
                           <span class="input-group-text"><i class="fa fa-user-circle"></i></span>
                           <input type="text" class="form-control" id="" name="name" placeholder="Name" required="required">
                         </div>
@@ -205,7 +193,7 @@
                     </div>
                     <div class="row">
                       <div class="col">
-                        <div class="mb-3 input-group">
+                        <div class="input-group mb-3">
                           <span class="input-group-text"><i class="fa fa-file-text"></i></span>
                           <input type="text" class="form-control" id="" placeholder="Subject" required="required">
                         </div>
@@ -213,7 +201,7 @@
                     </div>
                     <div class="row">
                       <div class="col">
-                        <div class="mb-3 input-group">
+                        <div class="input-group mb-3">
                           <span class="input-group-text"><i class="fa fa-envelope"></i></span>
                           <input type="email" class="form-control" id="" placeholder="E-mail" required="required">
                         </div>
@@ -234,66 +222,61 @@
                       </div>
                     </div>
                     </form>
-                  </div>
                 </div>
-                <div class="col-md-5">
-                  <div class="mt-4 card-body">
-                    <p class="mb-0 mt-3"><strong>Address</strong></p>
-                    <p class="pb-2 text">London, UK</p>
-                    <p class="mb-0"><strong>Phone</strong></p>
-                    <p class="pb-2"><a class="phone text" href="tel:(+44) 07947717069">(+44) 07947717069</a></p>
-                    <p class="mb-0"><strong>Email</strong></p>
-                    <p class="pb-2 text">nedyalkodraganov90@gmail.com</p>
-                  </div>
+              </div>
+              <div class="col-md-5">
+                <div class="mt-4 card-body">
+                  <p class="mb-0 mt-3"><strong>Address</strong></p>
+                  <p class="pb-2 text">London, UK</p>
+                  <p class="mb-0"><strong>Phone</strong></p>
+                  <p class="pb-2"><a class="phone text" href="tel:(+44) 07947717069">(+44) 07947717069</a></p>
+                  <p class="mb-0"><strong>Email</strong></p>
+                  <p class="pb-2 text">nedyalkodraganov90@gmail.com</p>
                 </div>
-            </div>
-        </div>
-    </div>
+              </div>
+          </div>
+      </div>
   </div>
 </div>
-</div>
+</section>
 
 <!-- Footer -->
 <!-- Code taken from https://sunnyhebbar.info/ -->
-<div class="section" id="footer">
-<div class="wrapper">
-  <div class="container">
-    <hr>
-    <footer class="footer">
-      <div class="container text-center">
-        <a class="btn btn-link " href="https://www.linkedin.com/in/nedyalko-draganov-12958a235/" target="_blank">
-          <i class="fa fa-linkedin fa-2x " aria-hidden="true"></i>
-        </a>
-        <a class="btn btn-link" href="https://github.com/NDraganov" target="_blank">
-          <i class="fa fa-github fa-2x " aria-hidden="true"></i>
-        </a>
-      </div>
-      <div class="h4 title text-center">Nedyalko Draganov</div>
-      <div class="text-center text-muted">
-        <p>
-          &copy;
-          <span id="copyright">
-            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-          </span>
-        </p>
-      </div>
-    </footer>
-  </div>
+<section id="footer">
+<div class="container">
+  <hr>
+  <footer class="footer">
+    <div class="container text-center">
+      <a class="btn btn-link " href="https://www.linkedin.com/in/nedyalko-draganov-12958a235/" target="_blank">
+        <i class="fa fa-linkedin fa-2x " aria-hidden="true"></i>
+      </a>
+      <a class="btn btn-link" href="https://github.com/NDraganov" target="_blank">
+        <i class="fa fa-github fa-2x " aria-hidden="true"></i>
+      </a>
+    </div>
+    <div class="h4 title text-center">Nedyalko Draganov</div>
+    <div class="text-center text-muted">
+      <p>
+        &copy;
+        <span id="copyright">
+          <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+        </span>
+      </p>
+    </div>
+  </footer>
 </div>
-</div>
-    
-</div>
+</section>
 
-  <script>
-    function myFunction() {
-      var x = document.getElementById("navbarNav");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
+<script>
+  function myFunction() {
+    var x = document.getElementById("navbarNav");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
     }
-  </script>
+  }
+</script>
   
 </main>
 

@@ -45,16 +45,16 @@ ul {
     border-bottom: 3px solid #610C63;
 }
 
+#profile .container {
+    position: relative;
+    top: 160px;
+    text-align: center;
+}
+
 .photo {
     width: 200px;
     border: 5px solid #610C63;
     border-radius: 100%;
-}
-
-.wrapper {
-    position: relative;
-    top: 160px;
-    text-align: center;
 }
 
 #name {
@@ -82,10 +82,13 @@ ul {
 
  /* About */
 
-.card {
-    font-size: 20px;
+#about {
     position: relative;
     top: 100px;
+}
+
+.card {
+    font-size: 20px;
     box-shadow: 5px 5px 20px #610C6380;
 }
 
@@ -124,12 +127,11 @@ ul {
 
 #skills {
     position: relative;
-    top: 100px;
+    top: 200px;
 }
 
-.skill {
-    position: relative;
-    top: 50px;
+#skills .h3 {
+    text-align: center;
 }
 
 .skill-bar {
@@ -164,12 +166,12 @@ ul {
 #portfolio {
     position: relative;
     top: 290px;
-  }
-
-.gallery {
-    position: relative;
-    top: 70px;
 }
+
+#portfolio .h3 {
+    text-align: center;
+}
+
 #portfolio figure {
     color: #610C63;
 }
@@ -182,7 +184,6 @@ ul {
 }
 
 .gallery1 {
-    background-color: black;
     border: solid 1px #610C63;
     border-radius: 10px 10px 0px 0px;
     box-shadow: 5px 5px 20px #610C6380;
@@ -197,13 +198,13 @@ ul {
 
 #contact {
     position: relative;
-    top: 450px;
+    top: 370px;
 }
 
 #contact .h3 {
     text-align: center;
-    font-weight: bold;
 }
+
 #contact .card-body {
     text-align: left;
 }
@@ -244,7 +245,7 @@ hr {
 #footer {
     color: #610C63;
     position: relative;
-    top: 650px;
+    top: 420px;
 }
 
 #footer .h4 {
