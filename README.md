@@ -1,5 +1,5 @@
 # Nedyalko Draganov - My website
----
+
 This project is my personal website that I created.<br/>
 It is a one scrolling page for ease of user.<br/>
 It is responsive on mobile devices.<br/>
@@ -26,7 +26,9 @@ There is contact form for anybody who wants to get in touch with me.<br/>
 
 * Visual Studio Code - for code editing
 
-* Google Chrome Developer Tools - for inspecting elements  
+* Google Chrome Developer Tool - for inspecting elements
+
+* Safari Developer Tool - for inspecting elements
 
 
 ## Features
@@ -86,6 +88,7 @@ There is contact form for anybody who wants to get in touch with me.<br/>
     (I've tried few options but did not work well or breakdown my responsiveness)  
 
 ## Credits
+
 ---
 
 ### Content
