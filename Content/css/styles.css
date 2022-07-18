@@ -86,7 +86,7 @@ ul {
     position: relative;
     top: 150px;
 }
-
+/* Code taken from https://www.udemy.com/course/the-complete-web-development-bootcamp/ */
 @media (max-width: 800px) {
     #about {
         position: relative;
@@ -101,7 +101,6 @@ ul {
 
 .text {
     font-family: Montserrat, sans-serif;
-    font-weight: bold;
 }
 
 #about .h3 {
@@ -136,7 +135,7 @@ ul {
     position: relative;
     top: 400px;
 }
-
+/* Code taken from https://www.udemy.com/course/the-complete-web-development-bootcamp/ */
 @media (max-width: 800px) {
     #skills {
         position: relative;
@@ -181,7 +180,7 @@ ul {
     position: relative;
     top: 600px;
 }
-
+/* Code taken from https://www.udemy.com/course/the-complete-web-development-bootcamp/ */
 @media (max-width: 800px) {
     #portfolio {
         position: relative;
@@ -189,7 +188,7 @@ ul {
     }
 }
 
-#portfolio .h3 {
+#portfolio .text {
     text-align: center;
 }
 
@@ -221,7 +220,7 @@ ul {
     position: relative;
     top: 800px;
 }
-
+/* Code taken from https://www.udemy.com/course/the-complete-web-development-bootcamp/ */
 @media (max-width: 800px) {
     #contact {
         position: relative;
@@ -275,7 +274,7 @@ hr {
     position: relative;
     top: 900px;
 }
-
+/* Code taken from https://www.udemy.com/course/the-complete-web-development-bootcamp/ */
 @media (max-width: 800px) {
     #footer {
         position: relative;
