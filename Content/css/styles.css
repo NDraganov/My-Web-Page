@@ -244,6 +244,8 @@ ul {
 
 #contact .input-group-text {
     border-color: #610C63;
+    justify-content: center;
+    width: 40px;
 }
 
 #contact textarea {
