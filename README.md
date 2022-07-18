@@ -55,6 +55,8 @@ There is contact form for anybody who wants to get in touch with me.<br/>
 
 ## Testing
 
+* Google mobile friendly test - Page is mobile friendly
+
 * Nav bar
   - Does the Nav Bar open when pressed the hamburger button
   - Does the Nav Bar close when pressed the hamburger button
