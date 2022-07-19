@@ -187,10 +187,13 @@ nav {
 #contact .card-body {
     text-align: left;
 }
-#contact .form-control {
+.form-control {
     border-top: 1px solid #610C63;
     border-right: 1px solid #610C63;
     border-bottom: 1px solid #610C63;
+}
+.form-control:focus {
+    box-shadow: none;
 }
 #contact .input-group-text {
     border-color: #610C63;
