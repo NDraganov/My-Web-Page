@@ -67,17 +67,6 @@ nav {
 }
 
  /* About */
-#about {
-    position: relative;
-    top: 150px;
-}
-/* Code taken from https://www.udemy.com/course/the-complete-web-development-bootcamp/ */
-@media (max-width: 800px) {
-    #about {
-        position: relative;
-        top: 50px;
-    }
-}
 .card {
     font-size: 20px;
     box-shadow: 5px 5px 20px #610C6380;
@@ -105,17 +94,6 @@ nav {
 }
 
 /* Skills Bar */
-#skills {
-    position: relative;
-    top: 400px;
-}
-/* Code taken from https://www.udemy.com/course/the-complete-web-development-bootcamp/ */
-@media (max-width: 800px) {
-    #skills {
-        position: relative;
-        top: 100px;
-    }
-}
 #skills .h3 {
     text-align: center;
 }
@@ -139,17 +117,6 @@ nav {
 }
 
   /* Portfolio */
-#portfolio {
-    position: relative;
-    top: 600px;
-}
-/* Code taken from https://www.udemy.com/course/the-complete-web-development-bootcamp/ */
-@media (max-width: 800px) {
-    #portfolio {
-        position: relative;
-        top: 150px;
-    }
-}
 #portfolio .text {
     text-align: center;
 }
@@ -170,17 +137,6 @@ nav {
   }
 
   /* Contact */
-#contact {
-    position: relative;
-    top: 800px;
-}
-/* Code taken from https://www.udemy.com/course/the-complete-web-development-bootcamp/ */
-@media (max-width: 800px) {
-    #contact {
-        position: relative;
-        top: 200px;
-    }
-}
 #contact .h3 {
     text-align: center;
 }
@@ -196,7 +152,6 @@ nav {
     border-top: 1px solid #610C63;
     border-right: 1px solid #610C63;
     border-bottom: 1px solid #610C63;
-    border-left: none;
     box-shadow: none;
 }
 #contact .input-group-text {
@@ -221,15 +176,6 @@ hr {
 }
 #footer {
     color: #610C63;
-    position: relative;
-    top: 900px;
-}
-/* Code taken from https://www.udemy.com/course/the-complete-web-development-bootcamp/ */
-@media (max-width: 800px) {
-    #footer {
-        position: relative;
-        top: 250px;
-    }
 }
 #footer .h4 {
     color: #610C63;
