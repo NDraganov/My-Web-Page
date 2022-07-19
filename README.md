@@ -1,5 +1,9 @@
 # Nedyalko Draganov - My website
 
+## How i deployed my website
+
+### I used GitHub Pages for this purpose
+
 Link to deployment - (https://ndraganov.github.io/My-Web-Page/)
 
 This project is my personal website that I created.<br/>
@@ -38,24 +42,20 @@ There is contact form for anybody who wants to get in touch with me.<br/>
 * Nav Bar
   - fixed on top for desktop and mobile
   - opening and closing nav bar toggler
-<br/>
-<br/>
 
 * Hyperlinks
   - logos link buttons for my GitHub and LinkedIn profiles
   - phone links for make a call with me
-<br/>
-<br/>
 
 * Form
   - contact form is not functional yet
-<br/>
-<br/>
 
 * Fonts
-  - large fonts
+  - large fonts for ease navigation
 
 ## Testing
+
+* Validator - (https://validator.w3.org/)
 
 * Google mobile friendly test - Page is mobile friendly
 
@@ -63,33 +63,23 @@ There is contact form for anybody who wants to get in touch with me.<br/>
   - Does the Nav Bar open when pressed the hamburger button
   - Does the Nav Bar close when pressed the hamburger button
   - Does the Nav Bar links leading to the correct section when clicked on 
-<br/>
-<br/>
 
 * Hyperlinks
   - Does the social links open in a new tab
   - Does the phone link make an actual call
-<br/>
-<br/>
 
 * Responsiveness - Bootstrap
   - Overall responsiveness on desktop and mobile phone
 
 ## Errors
 
+* Nav Bar
+  - not closing when hamburger button is pressed
+  - Update - deleting dublicate bootstrap cdn links
+
 * Social links
   - when the button is pressed it pop up light blue border around it (Not resolved yet!)
-<br/>
-<br/>
-
-* Send button
-  - when hoverd over it recognise only the top half part of the button (Not resolved yet!)
-<br/>
-<br/>
-
-* Profile section
-  - I wish to implement something on both sides of my profile picture to fill the "gaps"
-    (I've tried few options but did not work well or breakdown my responsiveness)  
+  - Update - changing box-shadow property to none for class .btn:focus
 
 ## Credits
 
