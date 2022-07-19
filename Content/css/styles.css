@@ -28,9 +28,6 @@ nav {
 .navbar-brand:hover {
     color: #d79bd6;
 }
-ul {
-    float: left;
-}
 
 /* Profile */
 #profile {
