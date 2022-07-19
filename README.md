@@ -1,5 +1,7 @@
 # Nedyalko Draganov - My website
 
+Link to deployment - (https://ndraganov.github.io/My-Web-Page/)
+
 This project is my personal website that I created.<br/>
 It is a one scrolling page for ease of user.<br/>
 It is responsive on mobile devices.<br/>
