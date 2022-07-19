@@ -7,8 +7,14 @@ nav {
     background-color: #610C63;
     color: #E8F6EF;
 }
+.nav-line {
+    border: 1px solid #E8F6EF;
+}
 .navbar-toggler {
     color: #E8F6EF;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 .nav-link {
     color: #E8F6EF;
@@ -23,7 +29,7 @@ nav {
     color: #d79bd6;
 }
 ul {
-    float: right;
+    float: left;
 }
 
 /* Profile */
@@ -57,6 +63,9 @@ ul {
 }
 .btn:hover {
     color: #d79bd6;
+}
+.btn:focus {
+    box-shadow: none;
 }
 
  /* About */
