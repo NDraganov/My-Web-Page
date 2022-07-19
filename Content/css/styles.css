@@ -2,86 +2,64 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-
-
 /* Navbar */
-
 nav {
     background-color: #610C63;
     color: #E8F6EF;
 }
-
 .navbar-toggler {
     color: #E8F6EF;
 }
-
 .nav-link {
     color: #E8F6EF;
 }
-
 .nav-link:hover {
     color: #d79bd6;
 }
-
 .navbar-brand {
     color: #E8F6EF;
 }
-
 .navbar-brand:hover {
     color: #d79bd6;
 }
-
 ul {
     float: right;
 }
 
-
-
 /* Profile */
-
 #profile {
     background-color: #E9D5DA;
     height: 600px;
     border-bottom: 3px solid #610C63;
 }
-
 #profile .container {
     position: relative;
     top: 160px;
     text-align: center;
 }
-
 .photo {
     width: 200px;
     border: 5px solid #610C63;
     border-radius: 100%;
 }
-
 #name {
     color: #610C63;
     font-size: 38px;
     font-weight: bold;
 }
-
 #occupation {
     color: #610C63;
     font-size: 20px;
     font-weight: bold;
 }
-
 .btn {
     color: #610C63;
 }
-
 .btn:hover {
     color: #d79bd6;
 }
 
-
-
-
  /* About */
-
 #about {
     position: relative;
     top: 150px;
@@ -93,20 +71,16 @@ ul {
         top: 50px;
     }
 }
-
 .card {
     font-size: 20px;
     box-shadow: 5px 5px 20px #610C6380;
 }
-
 .text {
     font-family: Montserrat, sans-serif;
 }
-
 #about .h3 {
     font-weight: bold;
 }
-
 .link {
     color: #610C63;
     text-decoration: none;
@@ -114,23 +88,16 @@ ul {
 .link:hover {
     color: #d79bd6;
 }
-
 .phone {
     color: #610C63;
     text-decoration: none;
     -webkit-text-decoration: none;
 }
-
 .phone:hover {
     color: #d79bd6;
 }
 
-
-
-
-
 /* Skills Bar */
-
 #skills {
     position: relative;
     top: 400px;
@@ -142,40 +109,29 @@ ul {
         top: 100px;
     }
 }
-
 #skills .h3 {
     text-align: center;
 }
-
 .skill-bar {
     padding: 20px;
 }
-
 .progress {
     height: 5px;
     background-color: #d79bd6;
 }
-
 .progress-bar {
     background-color: #610C63;
 }
-
 .progress-title {
     text-align: left;
     color: #610C63;
 }
-
 .progress-percent {
     text-align: right;
     color: #610C63;
 }
 
-
-
-
-
   /* Portfolio */
-
 #portfolio {
     position: relative;
     top: 600px;
@@ -187,22 +143,18 @@ ul {
         top: 150px;
     }
 }
-
 #portfolio .text {
     text-align: center;
 }
-
 #portfolio figure {
     color: #610C63;
 }
-
 #portfolio figcaption {
     background-color: #E9D5DA;
     border: 1px solid #610C63;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 5px 5px 20px #610C6380;
 }
-
 .gallery1 {
     border: solid 1px #610C63;
     border-radius: 10px 10px 0px 0px;
@@ -210,12 +162,7 @@ ul {
     width: 100%;
   }
 
-
-
-
-
   /* Contact */
-
 #contact {
     position: relative;
     top: 800px;
@@ -227,50 +174,37 @@ ul {
         top: 200px;
     }
 }
-
 #contact .h3 {
     text-align: center;
 }
-
 #contact .card-body {
     text-align: left;
 }
-
 #contact .form-control {
     border-top: 1px solid #610C63;
     border-right: 1px solid #610C63;
     border-bottom: 1px solid #610C63;
 }
-
 #contact .input-group-text {
     border-color: #610C63;
     justify-content: center;
     width: 40px;
 }
-
 #contact textarea {
     border-color: #610C63;
 }
-
 .btn2 {
     color: #E9D5DA;
     background-color: #610C63;
 }
-
 .btn2:hover {
     color: #d79bd6;
 }
 
-
-
-
-
 /* Footer */
-
 hr {
     border: 1px solid black;
 }
-
 #footer {
     color: #610C63;
     position: relative;
@@ -283,7 +217,6 @@ hr {
         top: 250px;
     }
 }
-
 #footer .h4 {
     color: #610C63;
     font-weight: bold;
