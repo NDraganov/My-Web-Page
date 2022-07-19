@@ -193,6 +193,10 @@ nav {
     border-bottom: 1px solid #610C63;
 }
 .form-control:focus {
+    border-top: 1px solid #610C63;
+    border-right: 1px solid #610C63;
+    border-bottom: 1px solid #610C63;
+    border-left: none;
     box-shadow: none;
 }
 #contact .input-group-text {
