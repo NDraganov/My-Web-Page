@@ -34,7 +34,9 @@ nav {
 .profile {
     background-color: #E9D5DA;
     height: 600px;
+    border-top: 3px solid #610C63;
     border-bottom: 3px solid #610C63;
+    margin-top: 0px;
 }
 .profile .container {
     position: relative;
