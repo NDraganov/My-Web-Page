@@ -1,6 +1,9 @@
 body {
     font-family: Helvetica, sans-serif;
 }
+header {
+    background-color: #610C63;
+}
 
 /* Navbar */
 nav {
