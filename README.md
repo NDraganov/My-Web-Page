@@ -1,10 +1,22 @@
-# Nedyalko Draganov - My website
+# Nedyalko Draganov - My website and Portfolio
 
 ## How i deployed my website
 
-### I used GitHub Pages for this purpose
+* Git Bash - I used Git Bash for creating the project with repository and initial<br/>
+ commitment.
+* Visual Studio Code - I used it for code editor throught creation of the whole project.
+* Internet Browser Search - for searching of icons, fonts, colours and code solutions.
+* GitHub Desktop - I used it for regulary commitments to the repository in GitHub website.
+* GitHub Pages - I used it for deployment (I have done it at early stage of creation of the project<br/>
+  for easy and better check of the page's layout (responsiveness) on an actual mobile device):
+  - I opened my project repository "My-Web-Page" in GitHub website
+  - Then i pressed "Settings" button
+  - Scrolled down and pressed "Pages" button
+  - Under "Source" I choosed "Branch-main, Folder-/(root)
+  - Then and finally step i pressed "Save" button
 
-Link to deployment - (https://ndraganov.github.io/My-Web-Page/)
+
+Link to deployment - [HERE](https://ndraganov.github.io/My-Web-Page/)
 
 This project is my personal website that I created.<br/>
 It is a one scrolling page for ease of user.<br/>
@@ -74,16 +86,13 @@ There is contact form for anybody who wants to get in touch with me.<br/>
 ## Errors
 
 * Nav Bar
-  - not closing when hamburger button is pressed
-  - Update - deleting dublicate bootstrap cdn links
+  - Not closing when hamburger button is pressed (Solution - deleting dublicate bootstrap cdn links)
 
 * Social links
-  - when the button is pressed it pop up light blue border around it (Not resolved yet!)
-  - Update - changing box-shadow property to none for class .btn:focus
+  - When the button is pressed it pop up light blue border around it (Solution - changing box-shadow property<br/>
+   to none for class .btn:focus)
 
 ## Credits
-
----
 
 ### Content
 
