@@ -7,6 +7,10 @@ nav {
     background-color: #610C63;
     color: #E8F6EF;
 }
+nav .fa {
+    color: #E8F6EF;
+    width: 50px;
+}
 .nav-line {
     border: 1px solid #E8F6EF;
 }
