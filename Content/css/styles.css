@@ -156,35 +156,45 @@ nav .fa {
 }
 .contact .h3 {
     text-align: center;
+    font-weight: 800;
+    color: #2B3A55;
 }
 .contact .card-body {
     text-align: left;
 }
+.contact strong {
+    font-weight: 500;
+    color: #535963;
+}
+label {
+    font-size: 16px;
+}
 .form-control {
-    border-top: 1px solid #610C63;
-    border-right: 1px solid #610C63;
-    border-bottom: 1px solid #610C63;
+    border: 1px solid #610C63;
+    border-top-left-radius: 5px;
 }
 .form-control:focus {
-    border-top: 1px solid #610C63;
-    border-right: 1px solid #610C63;
-    border-bottom: 1px solid #610C63;
     box-shadow: none;
 }
-.contact .input-group-text {
-    border-color: #610C63;
-    justify-content: center;
-    width: 40px;
-}
-.contact textarea {
-    border-color: #610C63;
-}
 .btn2 {
+    font-weight: 700;
     color: #E9D5DA;
     background-color: #610C63;
+    width: 20%;
 }
 .btn2:hover {
     color: #d79bd6;
+    transform: scale(1.1);
+}
+.card-body .text {
+    color: #8b8a8a;
+}
+.phone {
+    color: #610C63 !important;
+}
+.email {
+    color: #610C63 !important;
+    text-decoration: none;
 }
 
 /* Footer */
