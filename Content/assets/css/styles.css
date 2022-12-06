@@ -28,7 +28,8 @@ body {
     padding-top: 15px;
 }
 .large-menu li {
-    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     list-style: none;
   
 }
