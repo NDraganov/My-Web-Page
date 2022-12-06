@@ -143,6 +143,11 @@ body {
 }
 .btn:hover {
     color: var(--pink);
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
 .btn:focus {
     box-shadow: none;
@@ -165,12 +170,21 @@ body {
     font-weight: 600;
     color: #535963;
 }
+.contact-btn {
+    background: none;
+    border: none;
+}
+.contact-btn:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
 .link {
     color: var(--purple) !important;
     text-decoration: none;
-}
-.link:hover {
-    color: var(--pink) !important;
+    font-weight: 600;
 }
 
 /* Skills Bar */
@@ -188,9 +202,9 @@ body {
 .skill-bar:hover {
     transform: scale(1.02);
     -webkit-transform: scale(1.02);
-    -moz-transform: scale(1.02);;
-    -ms-transform: scale(1.02);;
-    -o-transform: scale(1.02);;
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
 }
 .progress {
     height: 5px;
@@ -222,6 +236,14 @@ body {
 }
 .portfolio figure {
     color: var(--purple);
+    
+}
+.portfolio figure:hover {
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
 }
 .portfolio figcaption {
     background-color: #E9D5DA;
@@ -280,6 +302,7 @@ label {
 }
 .phone {
     color: var(--purple) !important;
+    text-decoration: none;
 }
 .email {
     color: var(--purple) !important;
