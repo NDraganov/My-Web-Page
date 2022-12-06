@@ -173,9 +173,18 @@ body {
 }
 .skills .h3 {
     text-align: center;
+    font-weight: 800;
+    color: #2B3A55;
 }
 .skill-bar {
     padding: 20px;
+}
+.skill-bar:hover {
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);;
+    -ms-transform: scale(1.02);;
+    -o-transform: scale(1.02);;
 }
 .progress {
     height: 5px;
@@ -196,6 +205,11 @@ body {
   /* Portfolio */
 .portfolio {
     padding-top: 6rem;
+}
+.portfolio .h3 {
+    text-align: center;
+    font-weight: 800;
+    color: #2B3A55;
 }
 .portfolio .text {
     text-align: center;
