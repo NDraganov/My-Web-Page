@@ -104,22 +104,23 @@ body {
     transition: transform 200ms;
 }
 
-/* Profile */
-.profile {
-    background-color: #E9D5DA;
-    height: 600px;
-    border-top: 3px solid #610C63;
-    border-bottom: 3px solid #610C63;
+/* About */
+
+.about {
+    padding-top: 200px;
 }
-.profile .container {
-    position: relative;
-    top: 160px;
-    text-align: center;
+.about .container {
+    padding: 50px;
 }
 .photo {
-    width: 200px;
+    width: 300px;
     border: 5px solid #610C63;
     border-radius: 100%;
+    box-shadow: 3px 3px 20px #610C63;
+}
+.about .profile {
+    padding-top: 80px;
+    text-align: center;
 }
 .name {
     color: #610C63;
@@ -140,18 +141,19 @@ body {
 .btn:focus {
     box-shadow: none;
 }
-
- /* About */
-.about {
-    padding-top: 6rem;
- }
-.card {
+.about .about-info {
+    padding-top: 10px;
     font-size: 20px;
-    box-shadow: 5px 5px 20px #610C6380;
-    text-align: center;
+    line-height: 2;
+    color: #8b8a8a;
 }
 .text {
     font-family: Montserrat, sans-serif;
+}
+.welcome {
+    font-size: 25px;
+    font-weight: 500;
+    color: #2B3A55;
 }
 .about .h3 {
     font-weight: 600;
@@ -223,6 +225,9 @@ body {
     font-weight: 800;
     color: #2B3A55;
 }
+.contact .card {
+    box-shadow: 5px 5px 18px #610C6390;
+}
 .contact .card-body {
     text-align: left;
 }
@@ -283,5 +288,8 @@ hr {
     .bars-button {
         display: block;
         padding-left: 440px;
+    }
+    .photo-container {
+        text-align: center;
     }
 }
