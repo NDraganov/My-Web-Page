@@ -279,6 +279,9 @@ body {
 .gallery .text {
     line-height: 1;
 }
+.gallery .h4 {
+    font-weight: 600;
+}
 .gallery1 {
     border: solid 1px var(--purple);
     border-radius: 10px 10px 0px 0px;
@@ -318,13 +321,13 @@ label {
 .form-control:focus {
     box-shadow: none;
 }
-.btn2 {
+.submit-btn {
     font-weight: 700;
     color: #E9D5DA;
     background-color: var(--purple);
     width: 20%;
 }
-.btn2:hover {
+.submit-btn:hover {
     color: var(--pink);
     transform: scale(1.1);
 }
@@ -371,5 +374,11 @@ hr {
     }
     .photo-container {
         text-align: center;
+    }
+    .gallery .h4 {
+        font-size: 18px;
+    }
+    .submit-btn {
+        width: 40%;
     }
 }
