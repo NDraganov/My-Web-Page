@@ -83,14 +83,17 @@ There is contact form for anybody who wants to get in touch with me.<br/>
 * Responsiveness - Bootstrap
   - Overall responsiveness on desktop and mobile phone
 
-## Errors
+## Errors and Bugs
 
 * Nav Bar
   - Not closing when hamburger button is pressed (Solution - deleting dublicate bootstrap cdn links)
+  - I create my own navigation offcanvas with a little bit of JS(06.12.2022) - when close button and links pressed, leading to the
+    top of the page. I fix the issue with preventDefault()
 
 * Social links
   - When the button is pressed it pop up light blue border around it (Solution - changing box-shadow property<br/>
    to none for class .btn:focus)
+   
 
 ## Credits
 
