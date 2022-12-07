@@ -373,8 +373,20 @@ hr {
     .menu-brand:hover {
         color: var(--pink);
     }
+    .about {
+        padding-top: 100px;
+    }
+    .about .container {
+        padding: 20px;
+    }
+    .about .profile {
+        padding-top: 40px;
+    }
     .photo-container {
         text-align: center;
+    }
+    .skills {
+        padding-top: 50px;
     }
     .gallery .h4 {
         font-size: 18px;
