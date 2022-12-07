@@ -14,7 +14,9 @@
     <title>Nedyalko Draganov</title>
 </head>
 <body id="body">
+  <div id="background"></div>
 <header class="header-area">
+  <div class="menu-brand">ND</div>
   <ul class="large-menu container">
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
@@ -26,10 +28,10 @@
     <div class="offcanvas-menu" id="menu">
       <a href="#" class="close-button" id="close"><i class="fa-solid fa-xmark"></i></a>
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about" class="menu-link" onclick="hideOffcanvas()">About</a></li>
+        <li><a href="#skills" class="menu-link" onclick="hideOffcanvas()">Skills</a></li>
+        <li><a href="#portfolio" class="menu-link" onclick="hideOffcanvas()">Portfolio</a></li>
+        <li><a href="#contact" class="menu-link" onclick="hideOffcanvas()">Contact</a></li>
       </ul>
     </div>
   </nav>

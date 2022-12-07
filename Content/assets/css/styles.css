@@ -1,6 +1,15 @@
 body {
     font-family: Helvetica, sans-serif;
 }
+.black-bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #2B3A5590;
+    z-index: 1;
+}
 :root {
     --purple: #610C63;
     --pink: #d79bd6;
@@ -13,18 +22,25 @@ body {
 .header-area {
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--purple);
     height: 90px;
 }
+.menu-brand {
+    display: none;
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #F8EDE3;
+}
 .large-menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-top: 15px;
 }
 .large-menu li {
@@ -69,7 +85,8 @@ body {
     right: 0;
     background: var(--purple);
     color: var(--l-pink);
-    width: 70vw;
+    opacity: 0.9;
+    width: 80vw;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -334,7 +351,13 @@ hr {
     }
     .bars-button {
         display: block;
-        padding-left: 440px;
+        padding-left: 380px;
+    }
+    .menu-brand{
+        display: block;
+    }
+    .menu-brand:hover {
+        color: var(--pink);
     }
     .photo-container {
         text-align: center;
