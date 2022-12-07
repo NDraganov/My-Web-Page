@@ -364,7 +364,8 @@ hr {
     }
     .bars-button {
         display: block;
-        padding-left: 380px;
+        margin-left: 350px;
+        color: var(--l-pink);
     }
     .menu-brand{
         display: block;
